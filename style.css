@@ -275,6 +275,7 @@ p {
 
 /*GALLERY CSS ENDS HERE*/
 
+/*@MEDIA RESPONSIVE PX SIZING STARTS HERE*/
 
 @media screen and (max-width: 1240px) and (min-width: 50px) {
 
@@ -318,3 +319,4 @@ p {
 
 }
 
+/*@MEDIA RESPONSIVE PX SIZING ENDS HERE*/
