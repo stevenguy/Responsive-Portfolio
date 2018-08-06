@@ -1,0 +1,259 @@
+/*INDEX CSS START HERE*/
+
+
+nav {
+  /* I need to be flexed. */
+  display: flex;
+  /* I need to align my children vertically. */
+  align-items: center;
+  /* I need to justify my children so the logo is on the left and the links are on the right. */
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 2px solid #e7e7e7;
+  background-color: #cccccc;
+}
+
+.name {
+  display: block;
+  font-weight: bold;
+  font-size: 24px; 
+  text-align: left;
+  padding: 50px;
+  margin: 100px;
+  color:#4aaaa5;
+  font-size: 24px;
+  background-color:#4aaaa5;
+}
+
+.name:last-child {
+  border-right: none;
+}
+
+.navigation {
+  /* I need to be flexed. */
+  display: flex;
+  display: inline;  
+  /* I need to align my children vertically. */
+  margin: 100px;
+  color: #666;
+  text-align: right;
+
+}
+
+a {
+  display: block;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+a:last-child {
+  border-right: none;
+}  
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: blue;
+  text-decoration: underline;
+}
+
+img {
+  display: flex;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 150px; 
+  height: auto;
+  border: 2px solid #e7e7e7;
+}
+
+article {
+  padding: 100px;
+  color: white;
+  background-color: #777;
+  border: 2px solid #e7e7e7;
+}
+
+footer {
+  background-color:#666666;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #e7e7e7;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+p {
+  text-align: justify;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+  background: #007bb5;
+}
+
+.fa {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+i {
+  display: inline;
+}
+
+#picture,
+#social,
+#para {
+  float: left;
+}
+
+#picture {
+  width: 70%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+#social {
+  padding: 30px;
+  width: auto;
+}
+
+@media screen and (max-width: 1240px) and (min-width: 819px) {
+  
+
+  body,
+  nav,
+  footer  {
+    max-width: 100%;
+  }
+
+  article  {
+    background-color: black;
+    max-width: 100%;
+  }
+  
+  #social,
+  #para,
+  #picture {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 820px) and (min-width: 419px) {
+  
+
+  body,
+  nav,
+  footer  {
+    max-width: 100%;
+  }
+
+  article  {
+    background-color: black;
+    max-width: 100%;
+  }
+  
+  #social,
+  #para,
+  #picture {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 420px) and (min-width: 171px) {
+
+  body,
+  nav,
+  footer  {
+    max-width: 100%;
+  }
+
+  article  {
+    background-color: black;
+    max-width: 100%;
+  }
+  
+  #social,
+  #para,
+  #picture {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 170px) {
+
+  body,
+  nav,
+  footer  {
+    max-width: 100%;
+  }
+
+  article  {
+    max-width: 100%;
+    background-color: black;
+  }
+
+  img {
+    max-width: auto;
+    height: auto;
+  }
+  
+  #social,
+  #para,
+  #picture {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+}
